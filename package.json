@@ -1,6 +1,6 @@
 {
   "name": "@nexys/babelsetup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "test": "rimraf dist/ && jest ",
     "build": "rimraf dist/ && babel src/ --out-dir dist/;rm dist/*.test.js"
@@ -19,6 +19,5 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-minify": "^0.5.1"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
