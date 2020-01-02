@@ -1,6 +1,6 @@
 {
   "name": "@nexys/babelsetup",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "test": "rimraf dist/ && jest ",
     "build": "rimraf dist/ && babel src/ --out-dir dist/;rm dist/*.test.js"
