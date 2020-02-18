@@ -7,4 +7,13 @@
 
 ## Usage
 
-`yarn add --dev @nexys/babelsetup`
+* `yarn add --dev @nexys/babelsetup`
+* create `babel.config.js` with
+
+```
+const B = require('@nexys/babelsetup');
+
+module.exports = B.BabelConfig;
+```
+
+the above can be extended with some extra custom configuration
