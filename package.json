@@ -6,7 +6,7 @@
     "build": "rimraf dist && babel src/ --extensions \".js,.ts\"  -d dist"
   },
   "main": "index.js",
-  "files": [],
+  "files": ["babel.config.js"],
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.5.5",
