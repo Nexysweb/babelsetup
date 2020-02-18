@@ -2,7 +2,7 @@
 
 
 
-[![Travis build](https://travis-ci.com/Nexysweb/babelsetup)](https://travis.ibm.com/TSS-BP-Channel-Europe/bpms-koa)
+[![Travis build](https://travis-ci.com/Nexysweb/babelsetup.svg?branch=master)](https://travis-ci.com/Nexysweb/babelsetup)
 
 
 ## Usage
