@@ -1,12 +1,14 @@
 {
   "name": "@nexys/babelsetup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "test": "rimraf dist/ && jest ",
     "build": "rimraf dist && babel src/ --extensions \".js,.ts\"  -d dist"
   },
   "main": "index.js",
-  "files": ["babel.config.js"],
+  "files": [
+    "babel.config.js"
+  ],
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.5.5",
