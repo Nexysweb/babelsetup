@@ -1,16 +1,19 @@
 {
   "name": "@nexys/babelsetup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "test": "rimraf dist/ && jest ",
     "build": "rimraf dist && babel src/ --extensions \".js,.ts\"  -d dist"
   },
   "main": "index.js",
-  "files": [],
+  "files": [
+    "babel.config.js"
+  ],
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
+    "@babel/node": "^7.8.4",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.8.3",
@@ -21,9 +24,7 @@
     "@types/node": "^10.12.21",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.8.0",
-    "babel-loader": "^8.0.6",
     "babel-plugin-module-resolver": "^3.2.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-minify": "^0.5.1",
     "eslint": "^6.8.0",
     "jest": "^24.9.0",
